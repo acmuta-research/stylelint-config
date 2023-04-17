@@ -17,7 +17,6 @@ export default {
 		'no-missing-end-of-source-newline': true,
 
 		// other rules
-
 		'at-rule-empty-line-before': [ 'always', {
 			'except': [
 				'blockless-after-blockless',

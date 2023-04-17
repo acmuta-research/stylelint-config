@@ -17,12 +17,13 @@
 		"style-config",
 		"acmuta-research"
 	],
-	"main": "standard.json",
+	"main": "src/recommended.js",
 	"files": [
-		"standard.json"
+		"src/recommended.js"
 	],
 	"scripts": {
-		"lint": "stylelint"
+		"clean": "rm -rf ./node_modules && rm -rf ./package-lock.json",
+		"lint:stylelint": "stylelint ."
 	},
 	"dependencies": {
 		"stylelint": "^15.3.0",
