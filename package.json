@@ -1,0 +1,35 @@
+{
+	"name": "@acmuta-research/stylelint-config",
+	"author": "Samantha",
+	"license": "MIT",
+	"version": "1.0.0",
+	"description": "Stylelint standard config for ACM UTA Research",
+	"homepage": "https://github.com/acmuta-research/stylelint-config#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acmuta-research/stylelint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/acmuta-research/stylelint-config/issues"
+	},
+	"keywords": [
+		"stylelint",
+		"style-config",
+		"acmuta-research"
+	],
+	"main": "standard.json",
+	"files": [
+		"standard.json"
+	],
+	"scripts": {
+		"lint": "stylelint"
+	},
+	"dependencies": {
+		"stylelint": "^15.3.0",
+		"stylelint-config-css-modules": "^4.2.0",
+		"stylelint-config-standard": "^31.0.0",
+		"stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+		"stylelint-high-performance-animation": "^1.8.0",
+		"stylelint-order": "^6.0.3"
+	}
+}
