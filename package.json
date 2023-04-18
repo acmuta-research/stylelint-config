@@ -14,7 +14,7 @@
 	},
 	"keywords": [
 		"stylelint",
-		"style-config",
+		"stylelint-config",
 		"acmuta-research"
 	],
 	"main": "src/recommended.js",
