@@ -1,0 +1,10 @@
+{
+	"extends": [
+		"@acmuta-research/eslint-config/json",
+		"@acmuta-research/eslint-config/yaml"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2022,
+		"sourceType": "module"
+	}
+}

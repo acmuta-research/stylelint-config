@@ -23,7 +23,7 @@
 	],
 	"scripts": {
 		"clean": "rm -rf ./node_modules && rm -rf ./package-lock.json",
-		"lint:stylelint": "stylelint ."
+		"lint:eslint": "eslint src"
 	},
 	"dependencies": {
 		"stylelint": "^15.3.0",
@@ -32,5 +32,8 @@
 		"stylelint-declaration-block-no-ignored-properties": "^2.7.0",
 		"stylelint-high-performance-animation": "^1.8.0",
 		"stylelint-order": "^6.0.3"
+	},
+	"devDependencies": {
+		"@acmuta-research/eslint-config": "^1.2.0"
 	}
 }
